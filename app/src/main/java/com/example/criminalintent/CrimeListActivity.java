@@ -1,4 +1,9 @@
 package com.example.criminalintent;
 
-public class CrimeListActivity { //Left at page 161
+import androidx.fragment.app.Fragment;
+
+public class CrimeListActivity extends SingleFragmentActivity {
+    protected Fragment createFragment(){
+        return new CrimeFragment();
+    }
 }
