@@ -26,7 +26,7 @@ public class CrimeLab {
         }
     }
 
-    private List<Crime> getCrimes(){// List <E> is an interface that supports an ordered list of objects of a given type.
+    public List<Crime> getCrimes(){// List <E> is an interface that supports an ordered list of objects of a given type.
         return mCrimes;
     }
 
